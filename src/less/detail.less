@@ -1,0 +1,53 @@
+.detail{
+  width: 100%;
+  padding-top: 20rem/@baseFontSize;
+  & .top_d {
+    width: 100%;
+    & p {
+      width: 50%;
+      text-align: center;
+      color: @mainColor;
+      padding-bottom: 10rem/@baseFontSize;
+      border-bottom: 2rem/@baseFontSize solid @mainColor;
+    }
+  }
+    > .game{
+      width: 100%;
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+      & img{
+        width: 100%;
+        display: block;
+      }
+      p{
+        margin: 10rem/@baseFontSize;
+        color: black;
+      }
+    }
+  > .mix{
+    padding-top: 20rem/@baseFontSize;
+    width: 100%;
+    height: 40 rem/@baseFontSize;
+    position: relative;
+    overflow: hidden;
+
+    & p{
+      text-align: center;
+      margin: 5rem/@baseFontSize;
+      color: black;
+      line-height: 40rem/@baseFontSize;
+      border-bottom: 1rem/@baseFontSize solid #ccc;
+    }
+    & p::after{
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: @mainColor transparent transparent transparent;
+      border-width: 10rem/@baseFontSize;
+      position: absolute;
+      top: 40rem/@baseFontSize;
+      left: 58%;
+    }
+  }
+}

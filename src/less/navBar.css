@@ -1,0 +1,20 @@
+nav {
+  width: 100%;
+}
+nav .travle {
+  width: 100%;
+}
+nav .travle ul {
+  width: 100%;
+}
+nav .travle ul li {
+  float: left;
+  width: 30%;
+}
+nav .travle ul li a {
+  width: 100%;
+  display: inline-block;
+}
+nav .travle ul li a img {
+  width: 100%;
+}

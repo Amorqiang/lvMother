@@ -1,0 +1,15 @@
+.swiper-container {
+  width: 100%;
+}
+.swiper-container li {
+  display: block;
+  width: 100%;
+}
+.swiper-container li a {
+  display: block;
+  width: 100%;
+}
+.swiper-container li a img {
+  width: 100%;
+  display: block;
+}

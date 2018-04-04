@@ -1,0 +1,10 @@
+.detail {
+  width: 100%;
+  padding-top: 15rem;
+}
+.detail .top_d {
+  width: 100%;
+}
+.detail .top_d p {
+  width: 50%;
+}
